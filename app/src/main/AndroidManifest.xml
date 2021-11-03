@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DetailActivity"></activity>
+        <activity
+            android:name=".PotActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ControllActivity"
+            android:exported="true" />
+        <activity android:name=".DetailActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".intro">

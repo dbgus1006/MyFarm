@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PotActivity">
+
+    <Button
+        android:id="@+id/CheckPotButton"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="화분 상태 확인" />
+
+    <Button
+        android:id="@+id/ControlSensorButton"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:text="수동 제어"
+        android:layout_below="@+id/CheckPotButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/SelectOptionButton"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:text="옵션 선택"
+        android:layout_below="@+id/ControlSensorButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

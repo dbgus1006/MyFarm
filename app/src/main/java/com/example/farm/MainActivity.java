@@ -29,10 +29,7 @@ public class MainActivity extends AppCompatActivity {
         // (추가, 삭제 구현)
         // 첫 번째 아이템 추가
         adapter.addItem("A1000001", "POT_1");
-        adapter.addItem("A1000002", "POT_2");
-        adapter.addItem("A1050311", "POT_3");
-        adapter.addItem("B2055341", "POT_4");
-        adapter.addItem("B2062355", "POT_5");
+
 
 
 
@@ -50,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // TODO : use item data.
 
-                Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+                Intent intent = new Intent(MainActivity.this, PotActivity.class);
                 startActivity(intent);
             }
         });
